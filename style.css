@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #E9F5FF;
+
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+
+}
+li {
+    list-style: none;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+.hand__title {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 10;
+}
+.header {
+    background-color: #1391CEB2;
+    height: 643px;
+
+
+}
+.center {
+    display: flex;
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    width: 1120px;
+    height: 54px;
+    align-items: center;
+    padding: 41px 160px;
+    gap: 32px;
+    border: none;
+
+}
+
+.navbar li span:hover {
+    color: #ddd;
+    cursor: pointer;
+}
+
+.hand__title h1 {
+    display: flex;
+    flex: 1;
+    padding-right: 20px;
+}
+
+.navbar button {
+    border-radius: 24px;
+    width:  116px;
+    height: 98 px;
+    font-family: "Roboto", serif;
+    padding: 9px 18px;
+    border: 1px solid #1391CEB2;
+    background: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.card {
+
+    width: 561px;
+    height: 312px;
+    margin-top: 98px;
+}
+
+.card h2 {
+    font-family: "Roboto", serif;
+    font-size: 92px;
+    font-weight: 700;
+    line-height: 107px;
+    color: #25468A;
+
+}
+
+.card h3 {
+    font-family: "Roboto", serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37px;
+    color: #25468A;
+    padding-top: 8px;
+}
+
+.card p {
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    padding-top: 42px;
+    color: #25468A;
+}
+
+.card button {
+    width: Fixed (263.53px)px;
+    height: Hug (51px)px;
+    padding: 15px 85px 15px 85px;
+    gap: 10px;
+    border-radius: 26px;
+    background: #F7BA0E;
+    border: none;
+    margin-top: 24px;
+}
+
+.card button:hover {
+    background: white;
+    cursor: pointer;
+}
+
+.card__img {
+    width: 560px;
+    height: 401px;
+    margin-top: 98px;
+
+
+}
+
+.brake {
+    margin-top: 176px;
+    display: flex;
+    width: 1120px;
+    height: 189px;
+    gap: 32px;
+
+
+}
+
+.brakeing {
+    width: 352px;
+    height: 189px;
+    border-radius: 8px;
+    background: #1391CE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 34px;
+
+}
+
+.brakeing:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+
+.brakeing p {
+    font-family: "Roboto", serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    color: #fff;
+
+}
+
+.information {
+    width: 1137px;
+    height: 420px;
+    margin-top: 120px;
+    gap: 112px;
+    display: flex;
+
+}
+
+.information__title {
+    width: 387px;
+    height: 111px;
+    margin-left: 40%;
+    margin-top: 63px;
+}
+
+.information__title h3 {
+    font-family: "Roboto", serif;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 43px;
+    letter-spacing: 0.01em;
+    max-width: 600px;
+    color: #1391CE;
+}
+
+.information__text h5 {
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #25468A;
+}
+
+.information__text h3 {
+    font-family: "Roboto", serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.01em;
+    color: #25468A;
+    padding-top: 16px;
+
+
+}
+
+.footer {
+    display: flex;
+
+}
+
+.information__text p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #4F4F4F;
+    padding-top: 32px;
+}
+
+.foot {
+    width: 1150px;
+    height: 100px;
+    background: #1391CE;
+    padding: 32px 160px;
+    margin-top: 15px;
+}
+
+.foot p {
+    display: flex;
+    margin-top: 10px;
+}
+
+.foot p span {
+    color: #fff;
+}
+
+.chevron {
+    width: 60px;
+    height: 60px;
+    background: black;
+    display: inline-block;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+}
+.chevron:hover{
+    transition: calc(0.3);
+}
